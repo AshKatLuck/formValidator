@@ -15,22 +15,22 @@
             <!-- Fullname -->
             <div class="form-group">
                 <label for="name">Full name</label>
-                <input type="text" id="name" placeholder="Full Name" required minlength="3" maxlength="100">
+                <input type="text" name="name" id="name" placeholder="Full Name" required minlength="3" maxlength="100">
             </div>
             <!-- Phone number -->
             <div class="form-group">
                 <label for="phone">Phone number</label>
-                <input type="tel" id="phone" placeholder="555-555-555" required pattern="^\d{3}-\d{3}-\d{4}$">
+                <input type="tel" id="phone" name="phone" placeholder="555-555-555" required pattern="^\d{3}-\d{3}-\d{4}$">
             </div>
             <!-- email id -->
             <div class="form-group">
                 <label for="email">E-mail Address</label>
-                <input type="email" id="email" placeholder="email@address.com" required>
+                <input type="email" id="email" name="email" placeholder="email@address.com" required>
             </div>
             <!-- website url -->
             <div class="form-group">
                 <label for="website">Website url</label>
-                <input type="url" id="website" placeholder="https://www.url.com" required>
+                <input type="url" id="website" name="website" placeholder="https://www.url.com" required>
             </div>
             <!-- password -->
             <div class="form-group">
@@ -40,7 +40,7 @@
             <!-- confirm password -->
             <div class="form-group">
                     <label for="passowrd2">Confirm Password</label>
-                    <input type="password" id="password2" placeholder="Confirm passowrd" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" title="Enter a password with atleast 8 letters with minimum 1 uppercase letter">
+                    <input type="password" id="password2" name="password" placeholder="Confirm passowrd" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" title="Enter a password with atleast 8 letters with minimum 1 uppercase letter">
              </div>
              <!-- Button submit -->
              <button type="submit">Submit</button>         
